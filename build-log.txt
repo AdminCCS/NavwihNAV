@@ -1,0 +1,22 @@
+
+> navwithnav-blog@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 1565.1ms
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/series/[slug]/page.tsx:114:178
+Type error: Cannot find name 'Linkedin'.
+
+  112 |                         <h4 className="font-semibold text-sm mb-4 text-muted-foreground">Quick Share</h4>
+  113 |                         <div className="flex flex-col gap-3">
+> 114 |                             <a href="#" className="flex items-center justify-center p-3 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"><Linkedin className="h-5 w-5" /></a>
+      |                                                                                                                                                                                  ^
+  115 |                             <a href="#" className="flex items-center justify-center p-3 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"><Twitter className="h-5 w-5" /></a>
+  116 |                             <a href="#" className="flex items-center justify-center p-3 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"><ArrowLeft className="h-5 w-5" /></a>
+  117 |                         </div>
+Next.js build worker exited with code: 1 and signal: null
